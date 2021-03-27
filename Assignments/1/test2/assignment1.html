@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="assignment1.css" />
+</head>
+
+<body>
+    <form action="http://www.randyconnolly.com/tests/process.php" method="post">
+        <header>
+            <h1>Share Your Travels</h1>
+            <p>let us know where you've been</p>
+        </header>
+        <main>
+            <h2>PHOTO DETAILS</h2>
+            <section>
+                <table>
+                    <tr id="titleTable">
+                        <p id="title">Title</p>
+                        <input type="title" id="titleText" name="title" placeholder="Give your photo a descriptive name" required />
+                    </tr>
+
+                    <tr id="descriptionTable">
+                        <p id="description">Description</p>
+                        <textarea id="descriptionParagraph" placeholder="Adding a rich description will help with search results" type="description" name="description" required></textarea>
+                    </tr>
+
+                    <tr id="CCC">
+                        <td class="Continent">
+                            <p>Continent</p>
+                            <div class="customContinent">
+                                <select type="customContinent" name="Continent" required>
+                                    <option selected="selected">Select Continent:</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Asia">Asia</option>
+                                    <option value="Aftica">Aftica</option>
+                                    <option value="Antarctica">Antarctica</option>
+                                    <option value="Europe">Europe</option>
+                                    <option value="North-America">North-America</option>
+                                    <option value="South-America">South-America</option>
+                                </select>
+                            </div>
+
+                            <p>Country</p>
+                            <div class="customCountry">
+                                <select type="customCountry" name="Country" required>
+                                    <option selected="selected">Select Country:</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="USA">USA</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="France">France</option>
+                                    <option value="Switzerland">Switzerland</option>
+                                    <option value="Itly">Itly</option>
+                                    <option value="Rome">Rome</option>
+                                </select>
+                            </div>
+
+                            <p>City</p>
+                            <div class="customCity">
+                                <input type="City" type="customCity" name="City" required />
+
+                            </div>
+                        </td>
+                        <td>
+
+                            <div class="copyRights">
+                                <p>Copyright?
+                                    <br/>
+                                </p>
+                                <div class="control">
+                                    <label class="radio">
+                                        <input type="radio" name="copyright" value="1" /> All rights reserved
+                                        <br/>
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="copyright" value="2" checked="checked" /> Creative Commons
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="CCT">
+                                <p>Creative Common Types
+                                    <br/>
+                                </p>
+
+                                <label class="radio">
+                                    <input type="checkbox" name="cc" value="Array" />
+                                    <span class="checkmark" name="cc[]" value="1"></span> Attribution
+                                    <br/>
+                                </label>
+                                <label class="radio">
+                                    <input type="checkbox" name="cc[]" value="2" />
+                                    <span class="checkmark"></span> Noncommercial
+                                    <br/>
+                                </label>
+                                <label class="radio">
+                                    <input type="checkbox" name="cc[]" value="3" />
+                                    <span class="checkmark"></span> No Derivative Works
+                                </label>
+
+                            </div>
+                        </td>
+
+                    </tr>
+
+                    <tr >
+                        <td>
+                        <div class="licensecheck">
+                            <label class="licenseText">I accept the software license
+                                <input type="checkbox" name="accept" value="on" required />
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="rateAndColor">
+                                <div class="rateTitle">
+                                    <label>Rate this photo</label>
+                                    <input type="text" id="Rate" name="rate" />
+
+                                </div>
+
+                                <div class="colorCollection">
+                                    <label>Color Collection:</label>
+                                    <br/>
+                                    <input type="color" name="color" value="Black" />
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+
+                            <div class="DateTime">
+                                <div class="date">
+                                    <p for="start">Date Taken:</p>
+                        
+
+                                    <input type="date" id="start" name="Date" value="yyyy-mm-dd" required />
+                                </div>
+                                <div class="time">
+                                    <p for="appt">Time Taken:</p>
+                                    
+                                    <input type="time" id="appt" name="time" required />
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="formSubmitReset">
+
+                    <button id="submit" type="submit" value="Submit">Submit</button>
+                    <button id="reset" type="reset" value="Reset">Reset</button>
+                </div>
+
+            </section>
+        </main>
+    </form>
+</body>
+
+</html>

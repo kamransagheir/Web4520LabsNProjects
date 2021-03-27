@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="ISO-8859-1">
+
+<title>Insert title here</title>
+
+<style type="text/css">
+
+.button {
+
+background-color: #4CAF50; /* Green */
+
+border: none;
+
+color: white;
+
+padding: 15px 32px;
+
+text-align: center;
+
+text-decoration: none;
+
+display: inline-block;
+
+font-size: 10px;
+
+margin: 4px 2px;
+
+cursor: pointer;
+
+}
+
+lable{
+
+font: italic bold 12px/30px Georgia, serif;
+
+}
+
+table{
+
+background-color: #F0F8FF; /* Green */
+
+}
+
+input[type=text] {
+
+width: 50%;
+
+padding: 12px 20px;
+
+margin: 8px 0;
+
+box-sizing: border-box;
+
+background-color: #f8f8f8;
+
+}
+
+input[type=email] {
+
+width: 50%;
+
+padding: 12px 20px;
+
+margin: 8px 0;
+
+box-sizing: border-box;
+
+background-color: #f8f8f8;
+
+}
+
+input[type=number] {
+
+width: 50%;
+
+padding: 8px 10px;
+
+margin: 8px 0;
+
+box-sizing: border-box;
+
+background-color: #f8f8f8;
+
+}
+
+input[type=time] {
+
+width: 50%;
+
+padding: 8px 10px;
+
+margin: 4px 0;
+
+box-sizing: border-box;
+
+background-color: #f8f8f8;
+
+}
+
+input[type=date] {
+
+width: 50%;
+
+padding: 12px 20px;
+
+margin: 4px 0;
+
+box-sizing: border-box;
+
+background-color: #f8f8f8;
+
+}
+
+select {
+
+width: 40%;
+
+padding: 10px 15px;
+
+margin: 8px 0;
+
+box-sizing: border-box;
+
+background-color: #f8f8f8;
+
+}
+
+textarea {
+
+width: 60%;
+
+height: 100px;
+
+padding: 12px 20px;
+
+box-sizing: border-box;
+
+border: 2px solid #ccc;
+
+border-radius: 4px;
+
+background-color: #f8f8f8;
+
+font-size: 16px;
+
+resize: none;
+
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+
+.button3 {background-color: #e7e7e7; color: black;} /* Black */
+
+</style>
+
+</head>
+
+<body>
+
+<div align="center">
+
+<form action="">
+
+<table id="table1">
+
+<tr><th>Photo Details</th></tr>
+
+<tr>
+
+<td><label>Title</label></td>
+
+</tr>
+
+<tr >
+
+<td><input type="text" name="title" style="width: 245px;"></td>
+
+</tr>
+
+<tr>
+
+<td><label>Description</label></td>
+
+</tr>
+
+<tr>
+
+<td><textarea name="description" rows="4" cols="40"></textarea></td>
+
+</tr>
+
+<tr>
+
+<td><label>Email</label></td>
+
+</tr>
+
+<tr>
+
+<td><input type="email" name="email" style="width: 245px;"></td>
+
+</tr>
+
+<tr>
+
+<tr><td>
+
+<label>Continent</label>
+
+<select name="continent">
+
+<option value="">Select</option>
+
+<option value="na">North America</option>
+
+<option value="sa">South America</option>
+
+</select>
+
+</td></tr>
+
+<tr>
+
+<td><label>Country</label>
+
+<select name="country">
+
+<option value="">Select</option>
+
+<option value="can">Canada</option>
+
+<option value="max">Maxico</option>
+
+</select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td><label>City</label>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td><input type="text" name="city">
+
+</td>
+
+</tr>
+
+<tr>
+
+<td><label>Copyright</label><input type="radio" name="cr"
+
+value="cr"> <label>Comment</label><input type="radio"
+
+name="cr" value="cr"></td>
+
+</tr>
+
+<tr>
+
+<td><label>Give Rating </label></td>
+
+</tr>
+
+<tr>
+
+<td><input type="number" name="rating"></td>
+
+</tr>
+
+<tr>
+
+<td><label>Taken Date </label></td>
+
+<td><label>Taken Time </label></td>
+
+</tr>
+
+<tr>
+
+<tr>
+
+<td><input type="date" name="date"></td>
+
+<td><input type="time" name="time"></td>
+
+</tr>
+
+<tr>
+
+<td><input type="checkbox" name="condtion"><label>Accept
+
+Condition </label></td>
+
+</tr>
+
+<tr>
+
+<td><button class="button button2" type="submit" name="condtion" value="submit">Submit</button>
+
+<button class="button button3" type="reset" value="Clear Form">Reset</button></td>
+
+</tr>
+
+</table>
+
+</form>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+/* reset browser default settings */
+html, body, header, footer, hgroup, nav, main, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img
+{
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   border: 0;
+}
+
+/* general text formatting */
+
+h1, h3, nav, footer {
+ font-family: Lobster, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Open Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+   background-color: #E8EAF6;
+}
+
+
+/* header and navigation */
+
+header, footer {
+  color: white;
+  background-color: #1A237E;
+  margin: 0em 4em 0.25em 4em;
+}
+header h1 { 
+  padding: 0.5rem 0 0 1.25rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+header p { 
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding: 0 0 0 1.25rem;
+}
+
+
+/* main article styling */
+main {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   padding: 1em;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+   margin-bottom: 1em;
+   padding: 15px;
+   background-color: #C5CAE9;
+}
+
+
+legend { 
+  font-size: 1.35rem;
+  background-color: #7986CB;
+  height: 1.70rem;
+  color: #E8EAF6;
+  text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+}
+
+fieldset {
+   margin: 0;
+   padding: 0;
+   background-color: #C5CAE9;
+   width: 100%;
+   border: none;
+}
+form p {
+   margin-top: 0.5em;
+
+}
+h2{
+  color: white;
+  background-color: #7986CB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#titleText{
+  width: 100%;
+}
+
+#descriptionParagraph{
+  width: 100%;
+  height: 10em;
+}
+#titleTable{
+  padding-bottom: 15px;
+}
+#title{
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+#description{
+  color: black;
+}
+#descriptionTable{
+  padding-bottom: 5px;
+}
+.Continent{
+  
+  width: 100%;
+  display:  inline-block;
+} 
+
+#CCC{
+  padding-top: 20px;  
+  margin-bottom: 10px;
+}
+.licensecheck{
+background-color: #7986CB;
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: justify;
+left: 10px;
+margin-top: 2%;
+
+}
+.licenseText{
+  margin-left: 5px;
+}
+.rateTitle{
+  display: inline-block;
+  margin-top: 30px;
+  padding-right: 100%;
+}
+.colorCollection{
+  display:  inline-block;
+  margin-top: 10px;
+  width: 100%;
+}
+.rateAndColor{
+  width: 100%;
+  display:  inline-block;
+}
+.formSubmitReset{
+  margin-top: 30px;
+
+}
+.formSubmitReset{
+  background-color: #7986CB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#submit{
+  background-color: rgb(235, 92, 92); 
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 1%;
+
+}
+#reset{
+  background-color: rgb(235, 92, 92); 
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 2%;
+
+}
+
+.copyRights{
+  width: 100%;
+  border: 1px solid #7986CB;
+  padding: 2%;
+  display: inline-block;
+  margin-bottom: 5px;
+  
+  margin-left: 231%;
+}
+
+.CCT{
+  width: 100%;
+  border: 1px solid #7986CB;
+  padding: 2%;
+  display: inline-block;
+  margin-left: 231%;
+
+}
+
+.date{
+  display: inline-block;
+  width: 100%;  
+
+}
+.time{
+  display: inline-block;
+}
+.DateTime{
+  width: 100%;
+  border: 1px solid #7986CB;
+  padding: 3%;
+  padding-right: 38%;
+  display: inline-block;
+  margin-left: 221%;
+  margin-bottom: 5px;
+
+}

@@ -1,0 +1,124 @@
+#mainMenu{
+
+	
+	background-color: #000000;
+	font-size: 15px;	
+	padding-right: 40px;
+	text-align: right;
+
+
+}
+#secondaryMenu{
+	background-color: rgb(163,163, 214);
+	font-size: 15px;	
+	padding-left: 40px;
+
+
+}
+
+li {
+	display: inline;
+	background-color: 
+
+}
+h1{
+	
+	padding-left: 40px;
+	background-color: rgb(3,3,124);
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	background-image: url("../images/header-background.png");
+}
+span{
+	color: rgb(255, 102, 0);
+}
+article{
+	margin-right: 40px;
+	margin-left: 40px;
+
+
+}
+img {
+display: block;
+margin-left: auto;
+margin-top: 10px;
+margin-right: auto;
+background-color: white;
+padding: 5px;
+border: 1px solid black;
+}
+h2{
+	text-align: center;
+}
+h3{
+	color: white;
+	background-color: #778899;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	font-size: 15px;
+	background-image: url("../images/header-background.png");
+}
+section{
+  width: auto;
+  border: 1px solid black;
+  background-color: white;
+  margin: 20px;
+
+}
+p{
+padding: 10px;
+font-weight: bold;
+}
+
+em{
+	font-weight: normal;
+}
+.actions{
+	padding: 5px;
+	background-color: #778899;
+
+}
+body{
+	background-color: grey;
+}
+
+.actionEdit{
+	
+
+	color: white;
+  	padding-left:  15px;
+  	padding-right: 15px;
+  	background-image: url('../images/edit.png');
+  	background-repeat: no-repeat;
+    background-color: rgb(255, 102, 0);
+    border-radius: 5px;
+
+}
+.actionFlag{
+	color: white;
+  	padding-left:  15px;
+  	padding-right: 15px;
+  	background-image: url('../images/flag.png');
+  	background-repeat: no-repeat;
+    background-color: rgb(255, 102, 0);
+    border-radius: 5px;
+}
+figure{
+	object-fit: cover;
+
+}
+footer{
+	background-color: black;
+	padding-left: 40px;
+	font-size: 10px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+
+}
+#copyright{
+	color: white;
+	
+}
